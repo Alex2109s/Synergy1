@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Synergy", "Synergy\Synergy.pyproj", "{4E1F85A7-B588-458E-A4EF-4A887444019F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1F85A7-B588-458E-A4EF-4A887444019F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1F85A7-B588-458E-A4EF-4A887444019F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {269A5FEB-60BD-4C77-BE3E-AB9B523B76B9}
+	EndGlobalSection
+EndGlobal
