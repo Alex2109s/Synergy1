@@ -29,3 +29,33 @@ a7=('Человек флоресский')
 a8=('Неандертальцы')
 a9=('Человек разумный')
 print('Правильный ответ',a1,a2,a3,a4,a5,a6,a7,a8,a9,sep='=>') 
+
+#задание 1 урок 4 вариант 1
+a=float(input())
+b=float(input())
+s=a*b
+p=2*(a+b)
+print(s)
+print(p)
+#задание 1 урок 4 вариант 2
+a,b=map(float,input().split())
+print(a*b)
+print(2*(a+b))
+
+#задание 2 урок 4 вариант 1
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+p=d**e
+q=p*c
+h=q/(a-b)
+print(h)
+
+#задание 2 урок 4 вариант 2
+a,b,c,d,e=map(int,input().split())
+p=d**e
+q=p*c
+h=q/(a-b)
+print(h)
