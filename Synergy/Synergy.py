@@ -31,26 +31,27 @@ a9=('Человек разумный')
 print('Правильный ответ',a1,a2,a3,a4,a5,a6,a7,a8,a9,sep='=>') 
 
 #задание 1 урок 4 вариант 1
-a=float(input())
-b=float(input())
-s=a*b
-p=2*(a+b)
+a22= float(input())
+b= float(input())
+s=a22*b
+p=2*(a22+b)
 print(s)
 print(p)
+
 #задание 1 урок 4 вариант 2
-a,b=map(float,input().split())
-print(a*b)
-print(2*(a+b))
+a22,b=map(float,input().split())
+print(a22*b)
+print(2*(a22+b))
 
 #задание 2 урок 4 вариант 1
-a=int(input())
+a222=int(input())
 b=int(input())
 c=int(input())
 d=int(input())
 e=int(input())
 p=d**e
 q=p*c
-h=q/(a-b)
+h=q/(a222-b)
 print(h)
 
 #задание 2 урок 4 вариант 2
@@ -59,3 +60,34 @@ p=d**e
 q=p*c
 h=q/(a-b)
 print(h)
+
+
+#задание 1 урок 5 
+a=int(input())
+if(a < 0)and(a % 2 == 0):
+    print ("отрицательное четное число")
+elif(a < 0)and(a%2>0):
+    print("отрицательное нечетное число")
+elif(a==0):
+    print("нулевое число")
+elif(a>0)and(a%2==0):
+    print ("положительное четное число")
+elif(a>0)and(a%2>0): 
+    print ("положительное нечетное число")
+else:print ("false") 
+
+#задание 3 урок 5 
+A=int(input())
+B=int(input())
+X=10
+
+if(A >=X):
+    print ("MiKe")
+elif(B>=X):
+    print("Ivan")
+elif((A+B)>=X):
+    print(1)
+elif(A >=X)and (B>=X):
+    print (2)
+else:
+    print (0)
